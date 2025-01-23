@@ -27,6 +27,8 @@ public:
 class VolleyballBall : public Ball
 {
     const double friction_force = 0.05;
+    double o_radius = 0.15;
+    double w_thinkness = 0.0025;
 
     void calculate_mass() override;
     void calculate_braking_distance() override;
